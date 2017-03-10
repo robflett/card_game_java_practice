@@ -10,14 +10,16 @@ import cardgame.*;
 public class PlayerTest {
 
   Player player;
-  CardDeck card;
+  CardDeck card1;
+  CardDeck card2;
+  CardDeck card3;
 
 @Before
 public void before() {
   player = new Player("Player 1");
-  card1 = new CardDeck(TWO, SPADES);
-  card2 = new CardDeck(SEVEN, HEARTS);
-  card3 = new CardDeck(TEN, DIAMONDS);
+  card1 = new CardDeck(NumberType.TWO, SuitType.SPADES);
+  card2 = new CardDeck(NumberType.SEVEN, SuitType.HEARTS);
+  card3 = new CardDeck(NumberType.TEN, SuitType.DIAMONDS);
 }
 
 @Test
