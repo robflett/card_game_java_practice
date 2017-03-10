@@ -1,3 +1,5 @@
+package cardgame;
+
 import java.util.*;
 
 public class Game {
@@ -20,7 +22,8 @@ public class Game {
   }
 
   public boolean nextTurn(){
-    int result = dice.roll();
+    int result = 
+    // cardDeck.shuffle();
     this.turnCount++;
     return result > 2;
   }
