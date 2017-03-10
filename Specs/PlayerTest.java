@@ -1,7 +1,11 @@
+// package cardgame;
+
 import static org.junit.Assert.*;
 import org.junit.*;
 import org.mockito.*;
 import static org.mockito.Mockito.*;
+import cardgame.*;
+
 
 public class PlayerTest {
 

@@ -7,13 +7,13 @@ public class Game {
   
   private int turnCount;
   ArrayList<CardDeck> deck;
-  ArrayList<Player> player;
+  ArrayList<Player> players;
 
 
   public Game(CardDeck deck) {
-    this.deck = deck;
+    this.deck = new ArrayList<CardDeck>();
     this.turnCount = 0;
-    this.player = players;
+    this.players = new ArrayList<Player>();
   }
 
   public void addPlayer(Player player){
