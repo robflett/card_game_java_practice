@@ -19,7 +19,7 @@ public class Player{
     hand.add(card);
 }
 
-  public int countCard(CardDeck card) {
+  public int countCard() {
     return hand.size();
 }
 

@@ -33,12 +33,12 @@ public void canGetSuit(){
 }
 
 
-// @Test
-// public void canAddCard(){
-//   player1.addCard(card1);
-//   player1.addCard(card2);
-//   player1.addCard(card3);
-//   assertEquals(3, player1.countCard() );
-// }
+@Test
+public void canAddCard(){
+  player1.addCard(card1);
+  player1.addCard(card2);
+  player1.addCard(card3);
+  assertEquals(3, player1.countCard() );
+}
   
 }
