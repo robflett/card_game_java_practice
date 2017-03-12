@@ -23,7 +23,7 @@ public class Game {
 
   public boolean nextTurn(){
     int result = 
-     // gamedeck.Shuffle();
+     // gamedeck.shuffle();
     this.turnCount++;
     return result > 2;
   }
