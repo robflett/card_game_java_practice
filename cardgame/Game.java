@@ -6,12 +6,12 @@ public class Game {
 
   
   private int turnCount;
-  ArrayList<CardDeck> deck;
+  // ArrayList<CardDeck> gamedeck;
   ArrayList<Player> players;
 
 
   public Game(CardDeck deck) {
-    this.deck = new ArrayList<CardDeck>();
+    // this.gamedeck = new ArrayList<CardDeck>();
     this.turnCount = 0;
     this.players = new ArrayList<Player>();
   }
@@ -23,7 +23,7 @@ public class Game {
 
   public boolean nextTurn(){
     int result = 
-    // Card.shuffle();
+     // gamedeck.Shuffle();
     this.turnCount++;
     return result > 2;
   }
@@ -31,4 +31,8 @@ public class Game {
   public int getTurnCount(){
     return this.turnCount;
   }
+
+  // public ArrayList returnGameDeck(){
+  //   return gamedeck;
+  // }
 }

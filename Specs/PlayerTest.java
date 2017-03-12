@@ -10,6 +10,7 @@ import cardgame.*;
 public class PlayerTest {
 
   Player player1;
+  CardDeck deck1;
   Card card1;
   Card card2;
   Card card3;
@@ -17,6 +18,7 @@ public class PlayerTest {
 @Before
 public void before() {
   player1 = new Player("Player 1");
+  deck1 = new CardDeck();
   card1 = new Card(NumberType.TWO, SuitType.SPADES);
   card2 = new Card(NumberType.SEVEN, SuitType.HEARTS);
   card3 = new Card(NumberType.TEN, SuitType.DIAMONDS);
@@ -40,5 +42,11 @@ public void canAddCard(){
   player1.addCard(card3);
   assertEquals(3, player1.countCard() );
 }
+
+@Test
+public void cardDeckReturnsCards(){
+  System.out.println(deck1.returnGameDeck());
+  // assertEquals([], );
+  }
   
 }
