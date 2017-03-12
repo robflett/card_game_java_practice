@@ -15,7 +15,7 @@ public class Player{
     this.hand = new ArrayList<Card>();
   }
 
-  public showHand(){
+  public void showHand(){
     System.out.println(hand);
   }
 
