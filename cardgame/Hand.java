@@ -1,6 +1,8 @@
-package cardgame;
+// package cardgame;
 
-public class Hand {
+// public class Hand {
 
   
-}
+// }
+
+// unused class - to be refactored

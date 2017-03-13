@@ -25,6 +25,13 @@ public class CardDeck {
 
     Collections.shuffle(gamedeck);
 
+    // Iterator drawCard = gamedeck.iterator();
+    //    while (drawCard.hasNext())
+    //    {
+    //      Card thisCard = drawCard.next();
+    //      System.out.println(thisCard.getCardNumber() + " of " + thisCard.getSuit());
+    //    }
+
   }
 
   // public Card deal(){
@@ -39,6 +46,8 @@ public class CardDeck {
   public ArrayList returnGameDeck(){
     return gamedeck;
   }
+
+
 
   
 
